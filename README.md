@@ -43,7 +43,6 @@ if sensor_value == -1 :
 print("\nCould not read. Skipping\n") 
 time.sleep(10)
 continue
-P a g e |15
 if sensor_value < 500 : # 500 is the threshold value 
 print("\nIntruder!!!!!!!\n")
 print("Buzzer Activated\n")
